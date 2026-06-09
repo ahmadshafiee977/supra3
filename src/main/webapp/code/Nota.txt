@@ -1,0 +1,30 @@
+npm init -y
+server side listener
+npm install express socket.io
+pm2 untuk run node.js & socket.io in background
+
+npm install -g pm2
+
+pergi kat directory complaint-notifier
+run 'npm i'
+
+pastu kat directory yang sama
+run: pm2 start server.js --name e-aduan --log-date-format "YYYY-MM-DD HH:mm:ss"
+e-aduan tu boleh tukar ke apa2 nama
+
+pastu pm2 save
+
+kalau nak tengok apa yang tengah running/listening: pm2 list
+
+nak tengok log: pm2 log
+
+clear log: pm2 flush
+
+pm2 startup untuk pm2 start semua saved process during boot, untuk linux, belumt try sebab local windows.
+
+
+pm2 start server.js
+pm2 save
+pm2 startup
+pm2 list
+pm2 stop "id"

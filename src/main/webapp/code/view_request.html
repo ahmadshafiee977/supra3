@@ -1,0 +1,155 @@
+<div class="right_col">
+  <div class="x_panel" style="color: black">
+    <h4 align="center">BORANG PERMOHONAN STOK</h4>
+    <h5 align="center">(INDIVIDU KEPADA STOR)</h5>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th style="text-align: center" colspan="4"><b>Permohonan</b></th>
+          <th style="text-align: center" colspan="3"><b>Pegawai Pelulus</b></th>
+          <th style="text-align: center" colspan="2">
+            <b>Perakuan Penerimaan</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr align="center">
+          <td><b>No. Kod</b></td>
+          <td><b>Perihal Stok</b></td>
+          <td><b>Kuantiti Dimohon</b></td>
+          <td><b>Catatan</b></td>
+          <td><b>Baki Sedia Ada</b></td>
+          <td><b>Kuantiti Diluluskan</b></td>
+          <td><b>Catatan</b></td>
+          <td><b>Kuantiti Diterima</b></td>
+          <td><b>Catatan</b></td>
+        </tr>
+
+        <tr>
+          <td>B001</td>
+          <td>Pen</td>
+          <td>10</td>
+          <td>-</td>
+          <td>90</td>
+          <td>10</td>
+          <td>-</td>
+          <td></td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      style="
+        width: 100%;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 5px;
+      "
+    >
+      <tbody>
+        <tr style="border-top: 1px solid black">
+          <td style="padding-left: 10px">Pemohon:</td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Pemohon:
+          </td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Pemohon:
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10px">................................</td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            ................................
+          </td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            ................................
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10px">(Tandatangan)</td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            (Tandatangan)
+          </td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            (Tandatangan)
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10px">Nama:</td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Nama:
+          </td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Nama:
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10px">Jawatan:</td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Jawatan:
+          </td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Jawatan:
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10px">Tarikh:</td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Tarikh:
+          </td>
+          <td style="padding-left: 10px; border-left: 1px solid black">
+            Tarikh:
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <label for="col-date">Tarikh Pengambilan Barang</label>
+        <input
+          type="date"
+          name=""
+          id="col-date"
+          class="form-control admin-enable"
+        />
+      </div>
+    </div>
+    <br />
+    <button
+      class="btn btn-primary"
+      onclick="alert('Perubahan berjaya disimpan.')"
+    >
+      Simpan
+    </button>
+    <button
+      class="btn btn-success"
+      onclick="alert('Status diubah kepada SELESAI.')"
+    >
+      Selesai
+    </button>
+    <div class="row">
+      <div class="col-md-4">
+        <label for="r-col-date">Tarikh Pengambilan</label>
+        <input
+          type="date"
+          name="r-col-date"
+          id="r-col-date"
+          class="form-control"
+          readonly
+        />
+      </div>
+    </div>
+    <br />
+    <div class="col-md-4">
+      <label for="rej-reason">Sebab ditolak:</label>
+      <textarea
+        class="form-control"
+        name="rej-reason"
+        id="rej-reason"
+        readonly
+      ></textarea>
+    </div>
+  </div>
+</div>
